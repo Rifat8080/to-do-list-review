@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "private": "true",
+  "type": "module",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open",
-    "type": "module"
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,8 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "esmodule": "^0.2.1",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.11"
   }
 }
