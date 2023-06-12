@@ -1,11 +1,12 @@
 {
-  "name": "todo-list",
+  "name": "to-do-list-review",
   "version": "1.0.0",
   "description": "",
   "private": "true",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "type": "module"
   },
   "keywords": [],
   "author": "",
